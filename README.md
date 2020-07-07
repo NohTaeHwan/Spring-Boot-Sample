@@ -89,7 +89,7 @@ Spring Boot를 이용하여 백엔드 서버를 구축하는 간단한 샘플 �
 - customer 조회(이름으로) : GET /api/customers/:lastname
 - customer 추가 : POST /api/customers 
 - customer 삭제 : DELETE /api/customers/:id
-
+- customer 수정 : PUT /api/customers/:id
 
 
 ## Model
