@@ -449,3 +449,85 @@ Using generated security password: 43fc6a55-4cbf-4037-8095-b3c6b6c94755
 2020-07-07 14:31:17,879 INFO {SpringContextShutdownHook} o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:218] Shutting down ExecutorService 'applicationTaskExecutor'
 2020-07-07 14:31:17,879 INFO {SpringContextShutdownHook} c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
 2020-07-07 14:31:17,884 INFO {SpringContextShutdownHook} c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2020-07-07 15:15:59,434 INFO {main} c.s.t.h.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on notaehwan-ui-MacBookPro.local with PID 33348 (/Users/taehwan/IdeaProjects/hellospringboot/target/classes started by taehwan in /Users/taehwan/IdeaProjects/hellospringboot)
+2020-07-07 15:15:59,436 DEBUG {main} c.s.t.h.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-07 15:15:59,436 INFO {main} c.s.t.h.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-07-07 15:16:00,015 INFO {main} o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-07 15:16:00,062 INFO {main} o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 41ms. Found 1 JPA repository interfaces.
+2020-07-07 15:16:00,439 INFO {main} o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-07-07 15:16:00,446 INFO {main} o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-07-07 15:16:00,447 INFO {main} o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-07-07 15:16:00,447 INFO {main} o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-07 15:16:00,532 INFO {main} o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-07-07 15:16:00,533 INFO {main} o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:285] Root WebApplicationContext: initialization completed in 1073 ms
+2020-07-07 15:16:00,653 INFO {main} o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-07 15:16:00,691 INFO {task-1} o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-07 15:16:00,706 WARN {main} o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-07 15:16:00,727 INFO {task-1} o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-07 15:16:00,768 INFO {main} o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:86] 
+
+Using generated security password: e38dc33b-28c1-452c-8d4d-ba0dd0696001
+
+2020-07-07 15:16:00,816 INFO {task-1} o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-07 15:16:00,823 INFO {main} o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a00eb1e, org.springframework.security.web.context.SecurityContextPersistenceFilter@19b047fe, org.springframework.security.web.header.HeaderWriterFilter@7063686f, org.springframework.security.web.authentication.logout.LogoutFilter@7e736350, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53dad875, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4f67e3df, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36fcf6c0, org.springframework.security.web.session.SessionManagementFilter@68f32020, org.springframework.security.web.access.ExceptionTranslationFilter@18ac53e8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@27ace0b1]
+2020-07-07 15:16:00,986 INFO {task-1} c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-07-07 15:16:01,052 INFO {main} o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-07-07 15:16:01,132 INFO {main} o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-07-07 15:16:01,153 INFO {main} o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9000 (http) with context path ''
+2020-07-07 15:16:01,154 INFO {main} o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-07-07 15:16:01,233 INFO {task-1} c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-07-07 15:16:01,253 INFO {task-1} o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-07 15:16:01,645 INFO {task-1} o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-07 15:16:01,650 INFO {task-1} o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-07 15:16:01,796 INFO {main} o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-07-07 15:16:01,805 INFO {main} c.s.t.h.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 2.548 seconds (JVM running for 3.005)
+2020-07-07 15:16:37,367 INFO {http-nio-9000-exec-2} o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-07 15:16:37,368 INFO {http-nio-9000-exec-2} o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-07-07 15:16:37,380 INFO {http-nio-9000-exec-2} o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 12 ms
+2020-07-07 15:17:08,111 INFO {SpringContextShutdownHook} o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:598] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-07 15:17:08,113 INFO {SpringContextShutdownHook} o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:218] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-07 15:17:08,113 INFO {SpringContextShutdownHook} c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2020-07-07 15:17:08,115 INFO {SpringContextShutdownHook} c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2020-07-07 15:17:12,465 INFO {main} c.s.t.h.HelloSpringBootApplication [StartupInfoLogger.java:55] Starting HelloSpringBootApplication on notaehwan-ui-MacBookPro.local with PID 33375 (/Users/taehwan/IdeaProjects/hellospringboot/target/classes started by taehwan in /Users/taehwan/IdeaProjects/hellospringboot)
+2020-07-07 15:17:12,467 DEBUG {main} c.s.t.h.HelloSpringBootApplication [StartupInfoLogger.java:56] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-07 15:17:12,467 INFO {main} c.s.t.h.HelloSpringBootApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-07-07 15:17:12,918 INFO {main} o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:127] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-07 15:17:12,956 INFO {main} o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:187] Finished Spring Data repository scanning in 32ms. Found 1 JPA repository interfaces.
+2020-07-07 15:17:13,301 INFO {main} o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 9000 (http)
+2020-07-07 15:17:13,306 INFO {main} o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-9000"]
+2020-07-07 15:17:13,307 INFO {main} o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2020-07-07 15:17:13,307 INFO {main} o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-07 15:17:13,366 INFO {main} o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2020-07-07 15:17:13,366 INFO {main} o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:285] Root WebApplicationContext: initialization completed in 872 ms
+2020-07-07 15:17:13,461 INFO {main} o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:181] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-07 15:17:13,482 INFO {task-1} o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-07 15:17:13,495 WARN {main} o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [JpaBaseConfiguration.java:220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-07 15:17:13,510 INFO {task-1} o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-07 15:17:13,558 INFO {main} o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:86] 
+
+Using generated security password: eebe1cd0-f479-4374-bef9-1845e52eba96
+
+2020-07-07 15:17:13,625 INFO {task-1} o.h.a.c.Version [JavaReflectionManager.java:49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-07 15:17:13,685 INFO {main} o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@367b22e5, org.springframework.security.web.context.SecurityContextPersistenceFilter@7e1f584d, org.springframework.security.web.header.HeaderWriterFilter@2eaef76d, org.springframework.security.web.authentication.logout.LogoutFilter@363a3d15, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45d64d27, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8b91134, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@fca387, org.springframework.security.web.session.SessionManagementFilter@1da4b6b3, org.springframework.security.web.access.ExceptionTranslationFilter@5f780a86, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@43f61afb]
+2020-07-07 15:17:13,752 INFO {task-1} c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2020-07-07 15:17:13,842 INFO {main} o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-07-07 15:17:13,937 INFO {main} o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-9000"]
+2020-07-07 15:17:13,960 INFO {main} o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 9000 (http) with context path ''
+2020-07-07 15:17:13,961 INFO {main} o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:49] Triggering deferred initialization of Spring Data repositories…
+2020-07-07 15:17:14,035 INFO {task-1} c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-07-07 15:17:14,048 INFO {task-1} o.h.d.Dialect [Dialect.java:172] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-07 15:17:14,413 INFO {task-1} o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-07 15:17:14,419 INFO {task-1} o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-07 15:17:14,547 INFO {main} o.s.d.r.c.DeferredRepositoryInitializationListener [DeferredRepositoryInitializationListener.java:53] Spring Data repositories initialized!
+2020-07-07 15:17:14,554 INFO {main} c.s.t.h.HelloSpringBootApplication [StartupInfoLogger.java:61] Started HelloSpringBootApplication in 2.273 seconds (JVM running for 2.885)
+2020-07-07 15:17:28,406 INFO {http-nio-9000-exec-2} o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-07 15:17:28,406 INFO {http-nio-9000-exec-2} o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2020-07-07 15:17:28,416 INFO {http-nio-9000-exec-2} o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 10 ms
+2020-07-07 15:17:28,455 DEBUG {http-nio-9000-exec-2} c.s.t.h.c.CustomerController [CustomerController.java:94] Calling testCustomer()
+2020-07-07 15:17:41,170 DEBUG {http-nio-9000-exec-3} c.s.t.h.c.CustomerController [CustomerController.java:29] Calling getAll()
+2020-07-07 15:19:11,743 DEBUG {http-nio-9000-exec-6} c.s.t.h.c.CustomerController [CustomerController.java:57] Calling updateCustomer()
+2020-07-07 15:19:18,748 DEBUG {http-nio-9000-exec-7} c.s.t.h.c.CustomerController [CustomerController.java:29] Calling getAll()
+2020-07-07 15:19:25,391 INFO {SpringContextShutdownHook} o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:598] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-07 15:19:25,392 INFO {SpringContextShutdownHook} o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:218] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-07 15:19:25,393 INFO {SpringContextShutdownHook} c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2020-07-07 15:19:25,396 INFO {SpringContextShutdownHook} c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.

@@ -50,6 +50,22 @@ public class CustomerController {
 
     }
 
+    @PutMapping(value="/customers/{id}")
+    public ResponseEntity<Void> updateCustomer(@PathVariable Long id,@RequestBody Customer customer){
+
+        logger.debug("Calling updateCustomer()");
+
+        Customer target = repository.findById(id).get();
+
+        target.setFirstName(customer.getFirstName());
+        target.setLastName(customer.getLastName());
+
+        repository.save(target);
+
+        return new ResponseEntity<>(HttpStatus.OK);
+    }
+
+
     @GetMapping(value = "/customers/{lastName}",produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<Customer>> findByLastName(@PathVariable String lastName){
 
@@ -70,6 +86,5 @@ public class CustomerController {
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
 
     }
-
 
 }
